@@ -16,6 +16,8 @@
   height: 200px;
   width: 200px;
   font-size: 18px;
+  background: #eee9eb;
+  border: 2px solid #b7a2ad;
 }
 @-webkit-keyframes fall {
   0% {
