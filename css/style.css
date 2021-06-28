@@ -15,9 +15,11 @@
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  font-size: 18px;
+  font-size: 34px;
   background: #eee9eb;
   border: 2px solid #b7a2ad;
+  color: #8e4261;
+  font-family: "Dancing Script", cursive;
 }
 @-webkit-keyframes fall {
   0% {
@@ -406,7 +408,7 @@ img {
   font-style: normal;
   font-size: 60px;
   margin: 32px 0;
-  color: #674ea7;
+  color: #c980c6;
 }
 
 .title h2 {
@@ -432,11 +434,11 @@ img {
 
 .title h3 {
   font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-size: 24px;
   color: #674ea7;
   margin-top: 5px;
+  font-family: "Satisfy", cursive;
 }
 
 .title p {
@@ -480,6 +482,7 @@ body {
 
 .title {
   margin-bottom: 40px;
+  margin-top: 72px;
 }
 
 #time {
