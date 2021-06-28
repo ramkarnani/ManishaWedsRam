@@ -20,6 +20,145 @@
   border: 2px solid #b7a2ad;
   color: #8e4261;
   font-family: "Dancing Script", cursive;
+  cursor: pointer;
+}
+.scrollContainer {
+  margin: auto;
+}
+.scroll {
+  height: 400px;
+  width: 300px;
+  /* background: #ebef4e; */
+  background-image: url(../assets/img/scroll.png);
+  background-repeat: round;
+  padding-top: 50px;
+  margin: auto;
+}
+.scroll p {
+  font-family: "Satisfy", cursive;
+  letter-spacing: 2px;
+  font-size: 19px;
+  color: #764b74;
+}
+.scroll span {
+  font-family: "Satisfy", cursive;
+  font-size: 15px;
+  color: #7d6443;
+}
+.dateTag {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+  color: #c75e89;
+}
+.backButton {
+  border: 0;
+  background: #e6d3e9;
+  border-radius: 4px;
+  font-family: "Satisfy";
+  cursor: pointer;
+  font-size: 14px;
+  color: #6d3867;
+}
+.backButton:hover {
+  background: #bea6c1;
+  color: white;
+  transition: 0.2s;
+}
+.pageWrapper {
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+.ouPicImage {
+  height: 400px;
+  width: 320px;
+}
+.story,
+a {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #764b74;
+}
+
+.story a {
+  color: #648be4;
+}
+
+.venueDetailsText,
+p {
+  font-family: "Dancing Script", cursive;
+  font-size: 26px;
+  letter-spacing: 3px;
+  color: #764b74;
+}
+
+.mapLocation {
+  font-size: 18px;
+}
+
+.buttonsWrapper,
+.venueButtons {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.venueButtons {
+  border: 1px solid #c3a3c2;
+  width: 170px;
+  padding: 5px;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.venueButtons:hover {
+  background: #c3a3c2;
+  transition: 0.8s;
+  color: white;
+}
+.nearestList {
+  margin: auto;
+}
+
+.venueIcons {
+  height: 14px;
+  width: 14px;
+  max-width: 14px;
+  margin-right: 5px;
+}
+footer {
+  text-align: center;
+}
+#rsvpButton {
+  border: none;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  background: #8d7fa7;
+  border-radius: 4px;
+  color: white;
+}
+.footerMessage {
+  color: #564861;
+  font-size: 22px;
+  margin-top: 0;
+}
+.iframeContainer,
+iframe {
+  width: 100%;
+}
+.picturesList,
+a {
+  color: #bb93b8;
+  width: 40%;
+  margin: auto;
+}
+.picturesList a {
+  text-decoration: underline;
+}
+.picturesList a:hover {
+  filter: brightness(85%);
 }
 @-webkit-keyframes fall {
   0% {
@@ -377,14 +516,23 @@ body {
   background: #fbf2f2;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 900px) {
   img {
     max-width: 30%;
+  }
+  .ouPicImage {
+    height: 300px;
+    width: 210px;
+    max-width: 210px;
+  }
+  .venueIcons {
+    height: 18px;
+    width: 15px;
+    max-width: 15px;
+    margin-right: 3px;
+  }
+  .picturesList {
+    width: 60%;
   }
 }
 
@@ -481,8 +629,8 @@ body {
 }
 
 .title {
-  margin-bottom: 40px;
-  margin-top: 72px;
+  margin-bottom: 15px;
+  margin-top: 12px;
 }
 
 #time {
@@ -494,37 +642,27 @@ body {
   font-size: 16px;
 }
 
-.venue {
-  width: auto;
-  height: auto;
-  background-color: #674ea7;
-  border-radius: 16px;
-  text-align: center;
-  color: #fff;
-  padding: 8px;
-  margin-right: 8px;
-}
-
-.venue a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.container {
+.optionsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 10px;
   overflow: hidden;
+  width: 360px;
+  margin: auto;
+  cursor: pointer;
 }
 
-.block {
-  width: 180px;
-  height: 160px;
+.optionsContainer div {
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
+}
+.optionsContainer div:hover {
+  filter: brightness(80%);
+  transition: 0.2s;
 }
 
 .days {
@@ -548,20 +686,13 @@ body {
 }
 
 .date {
-  color: #427755;
+  color: #43696a;
   font-weight: 900;
 }
 
 .place {
   color: #874562;
   font-weight: 900;
-}
-
-.footer {
-  color: #564861;
-  text-align: center;
-  font-size: 16px;
-  margin: 24px;
 }
 
 .phone {
