@@ -1,3 +1,22 @@
+.entryPage{
+	width: 100%;
+	height: 900px;
+	justify-content: center;
+    align-items: center;
+    display: flex;
+	background: url("../assets/img/entrybg.jpg");;
+}
+
+.mainPage{
+	display: hidden;
+}
+
+.openCardButton{
+	border-radius: 50%;
+    height: 20%;
+    width: 13%;
+	font-size: 18px;
+}
 @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
@@ -352,6 +371,7 @@
 
 body {
 	font-family: Arial, Helvetica, Sans-serif;
+	background: #fbf2f2;
 }
 
 img {
@@ -466,7 +486,7 @@ body {
 	width: auto;
 	height: auto;
 	padding: 20px;
-	background-color: #eee;
+	background-color: #f9e2e5;
 	border-radius: 20px;
 	font-size: 16px;
 }
@@ -505,23 +525,27 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
+	background: #8c67a0;
+	width: 100%;
 }
 
 .hours {
-	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+	background: #d79ada;
+	width: 100%;
 }
 
-.minutes {
-	background-color: #874562;
+.minutes {	
+	background-color: #78c2cf;
+	width: 100%;
 }
 
 .seconds {
-	background-color: #145689;
+	background-color: #70b4c8;
+	width: 100%;
 }
 
 .date {
-	color: #874562;
+	color: #427755;
 	font-weight: 900;
 }
 
@@ -574,6 +598,8 @@ a {
 
 .actions {
 	display: flex;
+	justify-content: center;
 	font-size: 12px;
 	letter-spacing: 0pt;
+	margin-top: 20px;
 }

@@ -3,10 +3,10 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-
-$(document).on('click', function(){
+$("#openCardButton").on("click", function(){
+    $("#mainPage").css("display", "block");
+    $("#entryPage").css("display", "none");
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
 });
 
 // Set the date we're counting down to
