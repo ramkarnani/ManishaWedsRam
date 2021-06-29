@@ -544,6 +544,10 @@ body {
   .picturesList {
     width: 60%;
   }
+  .familyNames {
+    width: 200px;
+    margin: auto;
+  }
 }
 
 .top-right-decoration {
