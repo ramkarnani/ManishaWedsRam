@@ -518,6 +518,14 @@ a {
 .sakura {
   background: #674ea7;
 }
+.stickToPageBottom {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  margin: auto;
+  bottom: 23px;
+}
 
 /*******************************/
 
@@ -547,6 +555,13 @@ body {
   .familyNames {
     width: 200px;
     margin: auto;
+  }
+  .stickToPageBottom {
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    margin: auto;
+    bottom: 23px;
   }
 }
 
@@ -580,7 +595,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 24px;
-  color: #e25c67;
+  color: #94415d;
   line-height: 1;
 }
 
