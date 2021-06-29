@@ -3,8 +3,6 @@
   $(".sakura-falling").sakura();
 })(jQuery);
 
-$("#entryPage").css("height", screen.height);
-
 $("#openCardButton").on("click", function () {
   $("#mainPage").css("display", "block");
   $("#entryPage").css("display", "none");
