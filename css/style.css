@@ -525,6 +525,7 @@ a {
   position: fixed;
   margin: auto;
   bottom: 23px;
+  margin-top: 20px;
 }
 
 /*******************************/
@@ -562,6 +563,7 @@ body {
     position: fixed;
     margin: auto;
     bottom: 23px;
+    margin-top: 20px;
   }
 }
 
