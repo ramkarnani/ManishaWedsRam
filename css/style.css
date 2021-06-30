@@ -121,7 +121,7 @@ a {
 
 .venueButtons:hover {
   background: #c3a3c2;
-  transition: 0.8s;
+  transition: 0.5s;
   color: white;
 }
 .nearestList {
