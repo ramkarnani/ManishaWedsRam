@@ -148,6 +148,11 @@ footer {
   background: #8d7fa7;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
+}
+#rsvpButton:hover {
+  background: #766a8c;
+  transition: 0.2s;
 }
 .footerMessage {
   color: #564861;
